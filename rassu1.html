@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .box1{
+            border: 0.1px solid hwb(0 86% 11%);
+            height: 170px;
+            width: 1460px;
+        }
+        .box2{
+background-color: white;
+position: sticky;
+top: 0;
+
+        }
+        .logo{
+            margin-left: 200px;
+            margin-top: 20px;
+        }
+       
+        .fa-map-marker{
+            margin-left: 25px;
+        position: absolute;
+        z-index: 3;
+        margin-top: 25px;
+        
+        }
+        #cities{
+            margin-left: 354px;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+            margin-top: -40px;
+            position: absolute;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+border: #006aff;
+            
+        
+        }
+        .fa-search{
+            margin-left: 665px;
+        position: absolute;
+        z-index: 3;
+        margin-top: -24px; 
+        }
+        .s1{
+            width: 300px;
+            height: 47px;
+            margin-left: 660px;
+            margin-top: -40px;
+            position: absolute;
+            text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+border: #006aff;
+
+          
+        }
+        
+        a[target="_self"]{
+            font-size: large;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 980px;
+            color: gray;
+            margin-top: -30px;
+            text-decoration: none;
+            position: absolute;
+            font-weight: lighter;
+        }
+        a[target="_blank"]{
+            font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-left: 1050px;
+            color: gray;
+            margin-top: -30px;
+            text-decoration: none;
+            position: absolute;
+            font-weight: lighter;
+        }
+        .img1{
+         position: absolute; 
+         margin-left: 250px;  
+         margin-top: 50px;
+        }
+        .img2{
+         position: absolute; 
+         margin-left: 550px;  
+         margin-top: -70px;
+        }
+        .img3{
+         position: absolute; 
+         margin-left: 850px;  
+         margin-top: -70px;
+        }
+        a{
+            text-decoration: none;
+            font-size: larger;
+            color: rgb(223, 12, 72); 
+            font-weight: bold; 
+        }
+        a[target="_parent"]{
+          color: grey;  
+        }
+        a[target="_top"]{
+            color: grey;
+        }
+        .delivery{
+          color: rgb(223, 12, 72);  
+          margin-left: 320px;
+          margin-top: 80px;
+          text-decoration: none;
+        }
+        .diningout{
+            margin-left: 620px;
+            margin-top: -40px;
+            color: grey;
+            text-decoration: none;
+        }
+        .nightlife{
+            margin-left: 930px;
+            margin-top: -39px;
+            color: grey;
+            text-decoration: none;
+        }
+        .c1,.c2,.c3,.c4{
+            border: 1px  solid  hwb(0 86% 11%);
+            margin-top: 30px;
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+          
+            margin-left: 100px;
+    
+        }
+        .c1{
+            margin-left: 200px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color:  hwb(0 60% 37%);
+        }
+        .c2{
+            margin-left: 320px;
+            margin-top: -40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color:  hwb(0 60% 37%);
+        }
+        .c3{
+            margin-left: 440px;
+            margin-top: -40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color:  hwb(0 60% 37%);
+        }
+        .c4{
+            margin-left: 560px;
+            margin-top: -40px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color:  hwb(0 60% 37%);
+        }
+        .img4{
+            margin-left: 210px;
+            margin-top: 36px;
+            position: absolute;
+        }
+        .box3{
+            border: 1px solid hwb(0 95% 3%);
+            margin-top: 30px;
+            height: 400px;
+            background-color:  hwb(0 95% 3%);
+    
+        }
+       .b1{
+        margin-top: 60px;
+        margin-left: 100px;
+       
+       }
+       .biryani{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 140px;
+       }
+       .b2{
+        position: absolute;
+        border-radius: 100px;
+        margin-top: -200px;
+        margin-left: 300px;
+       
+       }
+       .pizza{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 350px;
+margin-top: -35px;
+       }
+       .b3{
+        position: absolute;
+        border-radius: 100px;
+        margin-top: -200px;
+        margin-left: 500px;
+       }
+       .burger{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 550px;
+margin-top: -35px; 
+       }
+       .b4{
+        position: absolute;
+        border-radius: 100px;
+        margin-top: -200px;
+        margin-left: 700px;
+       }
+       .chicken{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 750px;
+margin-top: -30px; 
+       }
+       .b5{
+        position: absolute;
+        border-radius: 100px;
+        margin-top: -210px;
+        margin-left: 890px;
+       }
+       .shawarma{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 930px;
+margin-top: -35px; 
+       }
+       .b6{
+        position: absolute;
+        border-radius: 100px;
+        margin-top: -205px;
+        margin-left: 1100px;
+       }
+       .cake{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: large;
+        margin-left: 1150px;
+margin-top: -35px; 
+       }
+       .heading{
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+       }
+       
+       .heading1{
+        margin-left: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: lighter;
+        margin-top: 15px;
+       }
+       .d1{
+        border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 100px;
+        margin-top: 50px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       } 
+       .r1{
+        position: absolute;
+        margin-left: 25px;
+        margin-top: 15px;
+       }
+    
+.box4{
+    
+    height: 350px;
+            width: 1460px;
+ }
+.d2{
+
+    border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 300px;
+        margin-top: -150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.r2{
+   margin-left: 25px; 
+   margin-top: 20px;
+}
+.d3{
+    border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 500px;
+        margin-top: -150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.r3{
+   margin-left: 24px; 
+   margin-top: 20px;
+   border-radius: 50px;  
+}
+.d4{
+    border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 700px;
+        margin-top: -150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.r4{
+   margin-left: 24px; 
+   margin-top: 20px;
+   border-radius: 50px;  
+}
+.d5{
+    border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 900px;
+        margin-top: -150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.r5{
+   margin-left: 24px; 
+   margin-top: 20px;
+     
+}
+.d6{
+    border: 1px solid white;
+        height: 150px;
+        width: 150px;
+        border-radius: 500px;
+        margin-left: 1100px;
+        margin-top: -150px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.r6{
+   margin-left: 24px; 
+   margin-top: 20px;
+     
+}
+.text1,.text2,.text3,.text4,.text5,.text6{
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+  font-size: large;
+  font-weight: lighter;
+  display: inline-block;
+  margin-left: 100px;
+  
+
+}
+.text1{
+    margin-left: 150px;
+}
+.text3{
+    margin-left: 90px;
+    margin-top: -10px;
+}
+.text4{
+
+ margin-left: 50px;   
+}
+.text6{
+    margin-left: 150px;
+}
+.box5{
+    margin-top: 10px;
+    
+    height: 630px;
+    width: 1460px;
+    background-color: white;
+}
+.h1{
+   margin-top: 50px; 
+   border: 1px solid white;
+  
+   width: 450px;
+   height: 500px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a1{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.heading2{
+    font-weight: lighter;
+    margin-left: 50px;
+}
+.h2{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 500px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a2{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h3{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 980px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a3{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h1:hover,.h2:hover,.h3:hover{
+    background-color: aliceblue;
+    
+}
+.t1{
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 50px;
+}
+.n1{
+    margin-left: 50px;
+}
+.e1{
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.f1{
+    background-color: rgb(0, 106, 255);
+    border:  rgb(0, 106, 255);
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 25px;
+    color: white;
+
+}
+.f2{
+    border-color: green;
+    background-color: green;
+    color: white;
+    margin-left: 360px;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: absolute;
+}
+
+/* fffffffffffffffffffffffffffffffffffffffffffffffffff */
+.box6{
+    margin-top: -30px;
+    
+    height: 700px;
+    width: 1460px;
+    background-color: white;
+}
+.h4{
+   margin-top: 50px; 
+   border: 1px solid white;
+  
+   width: 450px;
+   height: 500px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a4{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.h5{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 500px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a5{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h6{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 980px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a6{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h4:hover,.h5:hover,.h6:hover{
+    background-color: aliceblue;
+    
+}
+.t2{
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 50px;
+}
+.n2{
+    margin-left: 50px;
+}
+.e2{
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.f3{
+
+    background-color: green;
+    border: green;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 350px;
+    color: white;
+border-radius: 5px;
+
+
+}
+.f4{
+background-color: rgb(0, 106, 255);
+border: #006aff;
+color: white;
+margin-top: -130px;
+position: absolute;
+margin-left: 25px;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.box7{
+
+    margin-top: -200px;
+    
+    height: 560px;
+    width: 1460px;
+    background-color: white;
+}
+
+.h7{
+   margin-top: 50px; 
+   border: 1px solid white;
+  
+   width: 450px;
+   height: 500px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a7{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.h8{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 500px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a8{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h9{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 980px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a9{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h7:hover,.h8:hover,.h9:hover{
+    background-color: aliceblue;
+    
+}
+.t3{
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 50px;
+}
+.n3{
+    margin-left: 50px;
+}
+.e3{
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.f6{
+    background-color: rgb(0, 106, 255);
+    border:  #006aff;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 25px;
+    color: white;
+
+}
+.f5{
+    border-color: green;
+    background-color: green;
+    color: white;
+    margin-left: 360px;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: absolute;
+}
+/* gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg */
+.box8{
+
+
+height: 600px;
+width: 1460px;
+margin-top: 30px;
+}
+.h10{
+   margin-top: 30px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a10{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h10:hover,.h11:hover,.h12:hover{
+    background-color: aliceblue;
+    
+}
+.t4{
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 50px;
+}
+.n4{
+    margin-left: 50px;
+}
+.e4{
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.f7{
+    background-color: rgb(0, 106, 255);
+    border:  #006aff;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 25px;
+    color: white;
+
+}
+.f8{
+    border-color: green;
+    background-color: green;
+    color: white;
+    margin-left: 360px;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: absolute;
+}
+.h11{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 500px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a11{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h12{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 980px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a12{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.box9{
+
+
+height: 600px;
+width: 1460px;
+margin-top: -90px;
+}
+.h13{
+   margin-top: 30px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a13{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h13:hover,.h14:hover,.h15:hover{
+    background-color: aliceblue;
+    
+}
+.t5{
+    font-weight: lighter;
+    font-size: larger;
+    margin-left: 50px;
+}
+.n5{
+    margin-left: 50px;
+}
+.e5{
+    margin-left: 350px;
+    margin-top: -30px;
+}
+.f9{
+    background-color: rgb(0, 106, 255);
+    border:  #006aff;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 25px;
+    color: white;
+
+}
+.f10{
+    border-color: green;
+    background-color: green;
+    color: white;
+    margin-left: 360px;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: absolute;
+}
+.h14{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 500px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a14{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+.h15{
+   margin-top: -500px; 
+   border: 1px solid white;
+   width: 450px;
+   height: 500px;
+margin-left: 980px;
+border-radius: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.a15{
+    width: 400px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+/* mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm */
+.box10{
+height: 350px;
+width: 1460px;
+
+margin-top: -50px;
+}
+.heading3{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+margin-left: 20px;
+font-weight: lighter;
+margin-top: 15px;
+
+
+
+}
+#cities1,#cities2,#cities3,#cities4,#cities5,#cities6,#cities7,#cities8,#cities9{
+    border-color: aliceblue;
+            width: 300px;
+            height: 50px;
+            text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          font-weight: lighter;
+          color: black;
+            position: absolute;
+            font-size: large;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}   
+#cities1:hover,#cities2:hover,#cities3:hover,#cities4:hover,#cities5:hover,#cities6:hover,#cities7:hover,#cities8:hover,#cities9:hover{
+    background-color: rgb(188, 188, 188);
+    border-color: rgb(188, 188, 188);
+    
+}
+
+#cities1{
+
+    
+      margin-top: 200px; 
+      margin-left: 750px;  
+}
+#cities2{
+    margin-left: 50px;
+     margin-top: 100px;      
+}
+#cities3{
+    margin-left: 50px;
+    margin-top: 200px;
+}
+#cities4{
+margin-left: 400px;
+
+}
+#cities5{
+    margin-left: 750px;
+}
+#cities6{
+    margin-left: 400px;
+    margin-top: 100px;
+}
+#cities7{
+    margin-left: 400px;
+   
+    margin-top: 200px;
+}
+#cities8{
+    margin-left: 750px;
+    margin-top: 100px;
+    
+}
+#cities9{
+   margin-left: 50px;
+}
+.box11{
+    height: 450px;
+    width: 1460px;
+    
+}
+.heading4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;margin-left: 50px;
+}
+#l1{
+width: 800px;height: 50px;margin-left: 100px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+position: absolute;
+border-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+#l2{
+    width: 800px;height: 50px;
+margin-left: 100px;
+margin-top: 100px;
+position: absolute;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+border-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+#l3{
+position: absolute;
+margin-top: 200px;
+margin-left: 100px;
+width: 800px;height: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+border-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+#l4{
+    position: absolute;
+margin-top: 300px;
+margin-left: 100px;
+width: 800px;height: 50px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+border-color: white;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.box12{
+height: 300px;
+width: 1470px;
+margin-top: 50px;
+margin-left: -5px;
+border: 1px solid rgba(247, 239, 239, 0.826);
+background-color: rgba(247, 239, 239, 0.826);
+
+}
+#india{
+width: 100px;
+ height: 30px; 
+ border-radius: 5px; 
+ text-align: center; 
+ position: absolute;
+ margin-left: 900px;
+ 
+}
+.zz2{
+    margin-left: 905px;
+position: absolute;
+z-index: 4;
+margin-top: 10px;
+}
+#lang{
+    width: 100px;
+ height: 30px; 
+ border-radius: 5px; 
+ text-align: center; 
+ position: absolute;
+ margin-left: 1030px;
+ 
+
+}
+.zz1{
+    margin-left: 20px;
+}
+.zz3{
+
+    margin-left: 1035px;
+position: absolute;
+z-index: 4;
+margin-top: 10px;  
+}
+.abz{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 40px;
+margin-left: 20px;
+}
+.k1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.q1{
+margin-left: 250px;
+margin-top: -150px;
+}
+.zom{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 100px;
+margin-left: 20px;
+}
+.k2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+.q2{
+    margin-left: 460px;
+margin-top: -205px;
+
+}
+.for{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 40px;
+margin-left: 30px;
+}
+.k3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.q3{
+    margin-left: 460px;
+margin-top: -20px;
+
+}
+.ent{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 40px;
+margin-left: 30px;
+}
+.k4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 30px;
+}
+.q4{
+    margin-left: 750px;
+margin-top: -200px;
+
+
+}
+.lrn{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 40px;
+margin-left: 40px;
+}
+.k5{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-weight: lighter;
+    margin-left: 40px;
+}
+.q6{
+
+    margin-left: 1070px;
+margin-top: -575px;
+
+}
+.scl{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: larger;
+font-weight: lighter;
+margin-top: 340px;
+}
+.img10{
+    margin-top: 100px;
+    border-radius: 10px;
+    position: absolute;
+    width: 175px;
+    margin-left: 1080px;
+}
+.img11{
+margin-top: 40px;
+position: absolute;
+border-radius: 10px;
+margin-left: 1080px;
+}
+.q8{
+    border: 1px solid rgb(208, 199, 199);
+    margin-top: 2300px;
+}
+.k6{
+margin-left: 30px;
+color: rgb(129, 125, 125);
+margin-top: -3px;
+}
+.img5:hover,.img6:hover,.img7:hover,.img8:hover,.h1:hover,
+.h2:hover,.h3:hover,.h4:hover,.h5:hover,.h6:hover,.h7:hover,.h8:hover,.h9:hover,
+.h10:hover,.h11:hover,.h12:hover,.h13:hover,.h14:hover,.h15:hover,.img1:hover,.img2:hover,.img3:hover {
+    transform: scale(1.1);
+}
+.b1:hover,.b2:hover,.b3:hover,.b4:hover,.b5:hover,.b6:hover,
+.r1:hover,.r2:hover,.r3:hover,.r4:hover,.r5:hover,.r6:hover{
+  transform: scale(1.4);  
+}
+#rassu{
+  position: absolute;
+margin-top: -40px;
+  margin-left: 1100px;
+  width: 100px;
+  height: 50px;
+  border-color: white;
+ text-align: center;
+}
+.rassu1{
+  position: absolute;
+  margin-left: 1045px;
+  margin-top: -40px;
+}
+option{
+    font-size: large;
+}
+h3{
+    font-size: small;
+    font-weight: lighter;
+    margin-top: 85px;
+    position: absolute;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin-left: 110px;
+    margin-top: -15px;
+    color: rgb(152, 148, 148);
+}
+    </style>
+    </head>
+<body>
+    
+    <h3>Home / India / <p>Hyderabad Resturants</p></h3>
+<div class="box1">
+
+<img class="logo" src="./images/zz.png"height="30px">
+<i class="fa fa-map-marker" style="font-size:28px;color:red"></i>
+<form>
+    
+    
+        <label for=city></label>
+    
+        <select name="places" id="cities">
+         
+          <option value="Hyderabad">Hyderabad</option>
+          <option value="saab">Detect current location</option>
+          
+        </select>
+      </form>
+      <input placeholder="search for resturant,cuisine or a dish" class="s1">
+      <i class="fa fa-search" style="font-size:19px"></i>
+      <img class="rassu1" src="./images/user.png"height="50px">
+      <label for=city></label>
+   
+      <select name="places" id="rassu">
+       
+        <option value="Hyderabad">Rasagnya</option>
+        <option value="value1">Profile</option>
+        <option value="value1">Notifications</option>
+         <option value="value1">Bookmarks</option>
+         <option value="value1">Reviews</option>
+         <option value="value1">Network</option>
+         <option value="value1">Find friends</option>
+         <option value="value1">Settings</option>
+         <option value="value1">Log out</option>
+      </select>
+<img class="img1" src="./images/d1.png"height="50px">
+<p class="delivery"><a href="./projecttask.html">Delivery</a></p>
+<img class="img2" src="./images/d2.png"height="50px">
+<p class="diningout"><a href="./diningtask.html"target="_parent">Dining out</a></p>
+<img class="img3" src="./images/d3.png"height="50px">
+<p class="nightlife"><a href="./nightlifetask.html"target="_top">Night life</a></p>
+
+
+</div>
+<img class="img4" src="./images/blob.jpeg"height="px"width="20px">
+
+ <div class="box2">
+    
+<div class="c1">Filter</div>
+<div class="c2">Rating: 4.0+</div>
+<div class="c3">Pure Veg</div>
+<div class="c4">Cuisines</div>
+
+ </div>
+
+<div class="box3">
+<h1 class="heading">Inspiration for your first order</h1>
+    <img class="b1" src="./images/biryani1111.png"height="150px">
+    
+<h1 class="biryani">Biryani</h1>
+
+    <img class="b2" src="./images/pizza.png"height="150px">
+    <h1 class="pizza">pizza</h1>
+
+<img class="b3" src="./images/burger.png"height="150px">
+<h1 class="burger">Burger</h1>
+
+<img class="b4" src="./images/chicken.png"height="150px">
+<h1 class="chicken">chicken</h1>
+
+<img class="b5" src="./images/shawarma.png"height="165px">
+<h1 class="shawarma">shawarma</h1>
+
+<img class="b6" src="./images/cake.png"height="150px">
+<h1 class="cake">cake</h1>
+
+</div>
+
+<div class="box4">
+<h1 class="heading1">Top brands for you</h1>
+<div class="d1">
+
+<img class="r1" src="./images/mehfil.png"height="100px">
+
+</div>
+
+
+<div class="d2">
+
+    <img class="r2" src="./images/shah house.png"height="100px">
+
+</div>
+
+<div class="d3">
+
+    <img class="r3" src="./images/pista house.png"height="100px">
+</div>
+
+<div class="d4">
+
+    <img class="r4" src="./images/creamstone.png"height="100px">
+</div>
+
+<div class="d5">
+
+  <img class="r5" src="./images/kfc.png"height="100px">  
+</div>
+
+
+<div class="d6">
+
+   <img class="r6" src="./images/burgerking.png"height="100px">
+</div>
+
+<h1 class="text1">Mehfil</h1>
+<h1 class="text2">shah ghouse hotel<br>& resturant</h1>
+<h1 class="text3">pista house</h1>
+<h1 class="text4">cream  stone icecream</h1>
+<h1 class="text5">KFC</h1>
+<h1 class="text6">Burger</h1>
+</div>
+
+<div class="box5">
+    <h1 class="heading2">Best food in hyderabad</h1>
+<div class="h1">
+    <img class="a1" src="./images/h2.jpeg"height="300px">
+    <h1 class="t1">shah ghouse hotel & resturant</h1>
+    <p class="n1">North indian,Mughlai,chi...</p>
+    <p class="e1"> ₹250 for one<br>19min</p>
+
+    <button class="f1">50% off</button>
+<button class="f2">4.2⭐</button>
+</div>
+
+
+<div class="h2">
+<img class="a2" src="./images/h1.jpeg"height="300px">
+<h1 class="t1">Pista House Bakery</h1>
+<p class="n1">bakery, Desserts,Shawar..</p>
+<p class="e1"> ₹250 for one<br>19 min</p>
+
+<button class="f1">50% off</button>
+<button class="f2">4.4⭐</button>
+  
+</div>
+ 
+<div class="h3">
+    <img class="a3" src="./images/h3.jpeg"height="300px">
+    <h1 class="t1">AI Rabea AI Arabi Cafeteria</h1>
+    <p class="n1">Wraps, Sandwich,Burger...</p>
+    <p class="e1">₹150 for one<br>25 min</p>
+    
+    <button class="f1">10%off</button>
+    <button class="f2">4.5⭐</button>
+
+</div>
+</div>
+
+    <!-- 2 rowwwwwwwwww -->
+
+
+<div class="box6">
+    
+<div class="h4">
+    <img class="a4" src="./images/h4.jpeg"height="300px">
+    <h1 class="t2">Grand Hotel</h1>
+    <p class="n2">Biryani, North indian, Mughlai...</p>
+    <p class="e2"> ₹250 for one<br>24min</p>
+
+    <button class="f3">4.2⭐</button>
+<button class="f4">10%off</button>
+</div>
+
+
+<div class="h5">
+<img class="a5" src="./images/h5.jpeg"height="300px">
+<h1 class="t2">Burger King</h1>
+<p class="n2">Burger, Fast food..</p>
+<p class="e2"> ₹150 for one<br>40 min</p>
+
+<button class="f3">4.2⭐</button>
+<button class="f4">50%off</button>
+  
+</div>
+ 
+<div class="h6">
+    <img class="a6" src="./images/h7.jpeg"height="300px">
+    <h1 class="t2">Cream Stone Ice Cream</h1>
+    <p class="n2">ice cream. Desserts</p>
+    <p class="e2">₹150 for one<br>26 min</p>
+    
+    <button class="f3">4.2⭐</button>
+    <button class="f4">50%off</button>
+
+</div>
+</div>
+
+<!-- rowwwwwww 3 -->
+
+<div class="box7">
+    
+<div class="h7">
+    <img class="a7" src="./images/h8.jpeg"height="300px">
+    <h1 class="t3">Scopes Ice Cream</h1>
+    <p class="n3">icecream,desserts,pizza</p>
+    <p class="e3"> ₹150 for one<br>20min</p>
+
+    <button class="f5">4.5⭐</button>
+<button class="f6">50%off</button>
+</div>
+
+
+<div class="h8">
+<img class="a8" src="./images/h9.jpeg"height="300px">
+<h1 class="t3">Masqati Ice Cream</h1>
+<p class="n3">Desserts,Fastfood,Stre...</p>
+<p class="e3"> ₹200 for one<br>26 min</p>
+
+<button class="f5">4.3⭐</button>
+<button class="f6">50%off</button>
+  
+</div>
+ 
+<div class="h9">
+    <img class="a9" src="./images/h10.jpeg"height="300px">
+    <h1 class="t3">Pizza Hut</h1>
+    <p class="n3">Pizza, Pasta, Italian, Desserts...</p>
+    <p class="e3">₹200 for one<br>36 min</p>
+    
+    <button class="f5">4.3⭐</button>
+    <button class="f6">50%off</button>
+
+</div>
+
+<!-- jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
+<div class="box8">
+
+
+<div class="h10">
+<img class="a10" src="./images/dosa.jpeg"height="300px">
+
+<h1 class="t4">Sri Amul Tiffin Center</h1>
+<p class="n4">South Indian</p>
+<p class="e4">₹100 for one<br>28 min</p>
+
+<button class="f7">20%off</button>
+<button class="f8">4.1⭐</button>
+
+</div>
+
+
+<div class="h11">
+    <img class="a11" src="./images/tiffan.jpeg"height="300px">
+    
+    <h1 class="t4">Sravana Udupi Hotel</h1>
+    <p class="n4">South Indian</p>
+    <p class="e4">₹100 for one<br>36 min</p>
+    
+    <button class="f7">10%off</button>
+    <button class="f8">4.1⭐</button>
+    
+    </div>
+
+    <div class="h12">
+        <img class="a12" src="./images/puri.jpeg"height="300px">
+        
+        <h1 class="t4">Ohri's Uppu</h1>
+        <p class="n4">Andhra, South Indian, Des...</p>
+        <p class="e4">₹150 for one<br>46 min</p>
+        
+        <button class="f7">50%off</button>
+        <button class="f8">4.0⭐</button>
+        
+    </div>
+</div>
+<!-- lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll -->
+<div class="box9">
+
+
+    <div class="h13">
+    <img class="a13" src="./images/cake1.jpeg"height="300px">
+    
+    <h1 class="t5">Amande By Almond House</h1>
+    <p class="n5">Bakery</p>
+    <p class="e5">₹150 for one<br>37 min</p>
+    
+    <button class="f9">20%off</button>
+    <button class="f10">4.0⭐</button>
+    
+    </div>
+    
+    
+    <div class="h14">
+        <img class="a14" src="./images/cake2.jpeg"height="300px">
+        
+        <h1 class="t5">Layers - Cakes & Desserts</h1>
+        <p class="n5">Bakery, Desserts</p>
+        <p class="e5">₹150 for one<br>35 min</p>
+        
+        <button class="f9">50%off</button>
+        <button class="f10">4.2⭐</button>
+        
+        </div>
+    
+        <div class="h15">
+            <img class="a15" src="./images/cake3.jpeg"height="300px">
+            
+            <h1 class="t5">Bakingo</h1>
+            <p class="n5">Bakery, Desserts</p>
+            <p class="e5">₹100 for one<br>31 min</p>
+            
+            <button class="f9">50%off</button>
+            <button class="f10">4.5⭐</button>
+            
+        </div>
+    </div>
+
+
+
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+
+<div class="box10">
+
+<h1 class="heading3">Popular loacalities in and around Hyderabad</h1>
+
+
+<label for=city></label>
+    
+<select name="places" id="cities1">
+ 
+  <option value="Hyderabad">See more</option>
+  
+  
+</select>
+<!-- mmmmmmmmmmmmmmmmmmmmm -->
+
+<label for=city></label>
+    
+<select name="places" id="cities2">
+ 
+  <option value="Hyderabad">Hitech City</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+<label for=city></label>
+    
+<select name="places" id="cities3">
+ 
+  <option value="Hyderabad">Kukatpally</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+<!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+
+
+<label for=city></label>
+    
+<select name="places" id="cities4">
+ 
+  <option value="Hyderabad">Gachibowli</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+
+<label for=city></label>
+    
+<select name="places" id="cities5">
+ 
+  <option value="Hyderabad">Banjara Hills</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+
+
+<label for=city></label>
+    
+<select name="places" id="cities6">
+ 
+  <option value="Hyderabad">Madhapur</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+<label for=city></label>
+    
+<select name="places" id="cities7">
+ 
+  <option value="Hyderabad">Begumpet</option>
+  <option value="saab">Detect current location</option>
+  
+</select><label for=city></label>
+    
+<select name="places" id="cities8">
+ 
+  <option value="Hyderabad">Kondapur</option>
+  <option value="saab">Detect current location</option>
+  
+</select><label for=city></label>
+    
+<select name="places" id="cities9">
+ 
+  <option value="Hyderabad">Jubilee Hills</option>
+  <option value="saab">Detect current location</option>
+  
+</select>
+
+
+</div>
+<!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+
+<div class="box11">
+
+<h1 class="heading4">Explore options near me</h1>
+
+<label for=city></label>
+    
+<select name="places" id="l1">
+ 
+  <option value="Hyderabad">Popular Cusines near me</option>
+  
+  
+</select>
+  
+
+<label for=city></label>
+    
+<select name="places" id="l2">
+ 
+  <option value="Hyderabad">Popular resturants near me</option>
+  
+  
+</select>
+
+
+<label for=city></label>
+    
+<select name="places" id="l3">
+ 
+  <option value="Hyderabad">Top resturant Chains</option>
+  
+  
+</select>
+
+
+<label for=city></label>
+    
+<select name="places" id="l4">
+ 
+  <option value="Hyderabad">Cities We Deliver To</option>
+  
+  
+</select>
+
+</div>
+
+
+<div class="box12">
+    <img class="zz1" src="./images/zz.png"height="30px">
+
+
+
+    <label for=india></label>
+    <img class="zz2" src="./images/flaggg.png"height="10px">
+    <select name="places" id="india">
+      <option value="ind">India</option>
+       </select>
+
+
+       <label for=india></label>
+       <img class="zz3" src="./images/int1.jpg"height="10px">
+       <select name="places" id="lang">
+         <option value="ind">English</option>
+          </select>
+
+
+<h1 class="abz">A B O U T &nbsp;Z O M A T O</h1>
+<p class="k1">Who We Are</p>
+<p class="k1">Blog</p>
+<p class="k1">Work With Us</p>
+<p class="k1">Investor Relations</p>
+<p class="k1">Report Fraud</p>
+<p class="k1">Press Kit</p>
+<p class="k1">Contact Us</p>
+
+<div class="q1">
+<h1 class="zom">Z O M A V E R S E</h1>
+
+<p class="k2">Zomato</p>
+<p class="k2">Blinkit</p>
+<p class="k2">Feeding india</p>
+<p class="k2">Hyperpure</p>
+<p class="k2">Zomaland</p>
+</div>
+<div class="q2">
+
+    <h1 class="for">F O R R E S T U R A N T S</h1>
+
+    <p class="k3">Partner With US</p>
+    <p class="k3">Apps For You</p>
+
+</div>
+
+<div class="q3">
+
+    <h1 class="ent">F O R E N T E R P R I S E S</h1>
+
+    <p class="k4">Zomato For Enterprise</p>
+    
+
+</div>
+
+<div class="q4">
+
+    <h1 class="lrn">L E A R N M O R E</h1>
+
+    <p class="k5">Privacy</p>
+    <p class="k5">Security</p>
+    <p class="k5">Terms</p>
+    <p class="k5">Sitemap</p>
+</div>
+
+</div>
+
+<div class="q6">
+    <h1 class="scl">S O C I A L L I N K S</h1>
+
+
+    <a href="https://www.facebook.com/">
+        <i class="fa fa-facebook-f" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://www.instagram.com/">
+        <i class="fa fa-instagram" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/i/flow/login">
+        
+        <i class="fa fa-twitter" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://in.pinterest.com/">
+        <i class="fa fa-pinterest" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+</div>
+<div class="q7">
+        <img class="img10" src="./images/gp.png"height="50px"width="150px">
+
+        <img class="img11" src="./images/ap.png"height="50px">
+    </div>
+</div>
+
+<div class="q8">
+   
+</div>
+<div class="k10">
+<p class="k6">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners.<br> 2008-2024 © Zomato™ Ltd. All rights reserved.</p> 
+</div>
+
+<!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

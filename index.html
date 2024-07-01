@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body{
+      overflow-x: hidden;
+      /* overflow-y: hidden; */
+    }
+    .d1 {
+      height: 960px;
+      /* width: 1470px; */
+      margin-top: -10px;
+     
+    }
+
+    .img1 {
+      position: sticky;
+       height: 100vh;
+      width: 100%;
+
+      object-fit: cover;
+    }
+
+    ul {
+      display: flex;
+      position: absolute;
+      z-index: 6;
+      list-style-type: none;
+      gap: 30px;
+      margin-top: -700px;
+      margin-left: 700px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    a {
+      color: aliceblue;
+      text-decoration: none;
+
+    }
+
+    .caption {
+      position: absolute;
+    }
+
+    .caption3 {
+
+      font-size: xx-large;
+    }
+
+
+
+
+
+
+    .caption1 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: xx-large;
+    }
+
+
+
+    .f1 {
+      position: absolute;
+      font-style: italic;
+      margin-top: -500px;
+      margin-left: 700px;
+      color: white;
+
+
+
+    }
+
+    .f2 {
+      position: absolute;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: -400px;
+      margin-left: 400px;
+      color: white;
+      font-weight: lighter;
+      font-size: larger;
+    }
+
+
+
+    .p1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 450px;
+      margin-top: 0px;
+      font-size: larger;
+
+
+    }
+
+    .img2 {
+      margin-left: -5px;
+      margin-top: 20px;
+    }
+
+    .p2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+      margin-left: 20%;
+      font-weight: lighter;
+      font-size: large;
+    }
+
+    #city {
+      margin-left: 500px;
+      width: 300px;
+      height: 50px;
+      font-size: larger;
+      color: black;
+      text-align: center;
+      margin-top: 20px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px 5px rgb(174, 172, 172);
+    }
+
+    .q10 {
+      position: absolute;
+      margin-left: -150px;
+
+    }
+
+    /* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk */
+    .box10 {
+      height: 350px;
+      width: 1460px;
+      margin-left: 200px;
+      margin-top: 100px;
+    }
+
+    .heading3 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 20px;
+      font-weight: lighter;
+      margin-top: 15px;
+
+
+
+    }
+
+    #cities1,
+    #cities2,
+    #cities3,
+    #cities4,
+    #cities5,
+    #cities6,
+    #cities7,
+    #cities8,
+    #cities9 {
+      border-color: aliceblue;
+      width: 300px;
+      height: 50px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: lighter;
+      color: black;
+      position: absolute;
+
+      border-radius: 15px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #cities1:hover,
+    #cities2:hover,
+    #cities3:hover,
+    #cities4:hover,
+    #cities5:hover,
+    #cities6:hover,
+    #cities7:hover,
+    #cities8:hover,
+    #cities9:hover {
+      background-color: rgb(188, 188, 188);
+      border-color: rgb(188, 188, 188);
+
+    }
+
+    #cities1 {
+
+
+      margin-top: 200px;
+      margin-left: 750px;
+    }
+
+    #cities2 {
+      margin-left: 50px;
+      margin-top: 100px;
+    }
+
+    #cities3 {
+      margin-left: 50px;
+      margin-top: 200px;
+    }
+
+    #cities4 {
+      margin-left: 400px;
+
+    }
+
+    #cities5 {
+      margin-left: 750px;
+    }
+
+    #cities6 {
+      margin-left: 400px;
+      margin-top: 100px;
+    }
+
+    #cities7 {
+      margin-left: 400px;
+
+      margin-top: 200px;
+    }
+
+    #cities8 {
+      margin-left: 750px;
+      margin-top: 100px;
+
+    }
+
+    #cities9 {
+      margin-left: 50px;
+    }
+
+    .box11 {
+      height: 350px;
+      width: 1460px;
+      margin-left: 200px;
+      margin-top: 350px;
+    }
+
+    .box12 {
+      height: 350px;
+      width: 1460px;
+      margin-left: 200px;
+      margin-top: -40px;
+
+    }
+
+    .heading3 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-left: 20px;
+      font-weight: lighter;
+      margin-top: 15px;
+
+
+
+    }
+
+    #cities1,
+    #cities2,
+    #cities3,
+    #cities4,
+    #cities5,
+    #cities6,
+    #cities7,
+    #cities8,
+    #cities9 {
+      border-color: aliceblue;
+      width: 300px;
+      height: 50px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-weight: lighter;
+      color: black;
+      position: absolute;
+      font-size: large;
+      border-radius: 5px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    #cities1:hover,
+    #cities2:hover,
+    #cities3:hover,
+    #cities4:hover,
+    #cities5:hover,
+    #cities6:hover,
+    #cities7:hover,
+    #cities8:hover,
+    #cities9:hover {
+      background-color: rgb(188, 188, 188);
+      border-color: rgb(188, 188, 188);
+
+    }
+
+    #cities1 {
+
+
+      margin-top: 200px;
+      margin-left: 750px;
+    }
+
+    #cities2 {
+      margin-left: 50px;
+      margin-top: 100px;
+    }
+
+    #cities3 {
+      margin-left: 50px;
+      margin-top: 200px;
+    }
+
+    #cities4 {
+      margin-left: 400px;
+
+    }
+
+    #cities5 {
+      margin-left: 750px;
+    }
+
+    #cities6 {
+      margin-left: 400px;
+      margin-top: 100px;
+    }
+
+    #cities7 {
+      margin-left: 400px;
+
+      margin-top: 200px;
+    }
+
+    #cities8 {
+      margin-left: 750px;
+      margin-top: 100px;
+
+    }
+
+    #cities9 {
+      margin-left: 50px;
+    }
+
+    .box13 {
+      height: 300px;
+      width: 1470px;
+      margin-top: -50px;
+      margin-left: 0px;
+      border: 1px solid rgba(247, 239, 239, 0.826);
+      background-color: rgba(247, 239, 239, 0.826);
+      padding: 30px;
+    }
+
+    #india {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      position: absolute;
+      margin-left: 900px;
+      margin-top: 0px;
+
+    }
+
+    .zz2 {
+      margin-left: 905px;
+      position: absolute;
+      z-index: 4;
+      margin-top: 10px;
+    }
+
+    #lang {
+      width: 100px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      position: absolute;
+      margin-left: 1030px;
+      margin-top: 0px;
+
+    }
+
+    .zz1 {
+      margin-left: 20px;
+
+    }
+
+    .zz3 {
+
+      margin-left: 1035px;
+      position: absolute;
+      z-index: 4;
+      margin-top: 10px;
+    }
+
+    .abz {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+
+    .k1 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      margin-left: 20px;
+    }
+
+    .q1 {
+      margin-left: 250px;
+      margin-top: -260px;
+    }
+
+    .zom {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 40px;
+      margin-left: 20px;
+    }
+
+    .k2 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      margin-left: 20px;
+    }
+
+    .q2 {
+      margin-left: 460px;
+      margin-top: -205px;
+
+    }
+
+    .for {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+
+    .k3 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      margin-left: 30px;
+    }
+
+    .q3 {
+      margin-left: 460px;
+      margin-top: -20px;
+
+    }
+
+    .ent {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 40px;
+      margin-left: 30px;
+    }
+
+    .k4 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      margin-left: 30px;
+    }
+
+    .q4 {
+      margin-left: 750px;
+      margin-top: -200px;
+
+
+    }
+
+    .lrn {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 40px;
+      margin-left: 40px;
+    }
+
+    .k5 {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      margin-left: 40px;
+    }
+
+    .q6 {
+
+      margin-left: 1070px;
+      margin-top: -575px;
+
+    }
+
+    .scl {
+
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: larger;
+      font-weight: lighter;
+      margin-top: 310px;
+    }
+
+    .img10 {
+      margin-top: 100px;
+      border-radius: 10px;
+      position: absolute;
+      width: 175px;
+      margin-left: 1080px;
+    }
+
+    .img11 {
+      margin-top: 40px;
+      position: absolute;
+      border-radius: 10px;
+      margin-left: 1080px;
+    }
+
+    .q8 {
+      border: 1px solid rgb(208, 199, 199);
+      margin-top: 210px;
+    }
+
+    .k6 {
+      margin-left: 30px;
+      color: rgb(129, 125, 125);
+      margin-top: px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="d1">
+    <img class="img1" src="./images/z1.png">
+    <div class="nav-bar">
+      <ul>
+        <li><a href="./addrest.html">Add resturant</a></li>
+        <li><a href="./loginz.html">Log in</a></li>
+        <li><a href="./zomatosignup.html">Sign Up</a></li>
+      </ul>
+    </div>
+
+    <div class="caption">
+
+
+      <h1 class="f1"><img class="q10" src="./images/8313a97515fcb0447d2d77c276532a511583262271.avif" height="70px"></h1>
+    </div>
+    <div class="caption1">
+      <h3 class="f2">Find the best restaurants, cafés <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; and bars in
+        India</h3>
+    </div>
+    <div class="caption3">
+      <p class="p1">Popular locations in <img class="img2" src="./images/flaggg.png" height="20px" width="30px"
+          style="border-radius: 5px;">India </p>
+
+    </div>
+    <p class="p2"> From swanky of upscale restaurants to the cosiest hidden gems serving the most incredible
+      food,<br><br>&nbsp; Zomato covers at all. Explore menus and millions of restaurant photos and reviews from
+      users<br><br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp;&nbsp; &nbsp; &nbsp; just like you, to find your next great meal.</p>
+
+    <!--nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn  -->
+
+
+    <div class="box10">
+
+
+
+
+      <label for=city></label>
+
+      <select name="places" id="cities1">
+
+        <option value="Hyderabad">Chandigarh Resturants</option>
+
+
+      </select>
+      <!-- mmmmmmmmmmmmmmmmmmmmm -->
+
+      <label for=city></label>
+
+      <select name="places" id="cities2">
+
+        <option value="Hyderabad">Agra Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+      <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+      <label for=city></label>
+
+      <select name="places" id="cities3">
+
+        <option value="Hyderabad">Bhopal Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+      <!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+
+
+      <label for=city></label>
+
+      <select name="places" id="cities4">
+
+        <option value="Hyderabad">Ahmedabad Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+
+      <label for=city></label>
+
+      <select name="places" id="cities5">
+
+        <option value="Hyderabad">Ajmer Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+
+
+      <label for=city></label>
+
+      <select name="places" id="cities6">
+
+        <option value="Hyderabad">Allahabad Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+      <label for=city></label>
+
+      <select name="places" id="cities7">
+
+        <option value="Hyderabad">Bhubaneswar Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select><label for=city></label>
+
+      <select name="places" id="cities8">
+
+        <option value="Hyderabad">Amaravati Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select><label for=city></label>
+
+      <select name="places" id="cities9">
+
+        <option value="Hyderabad">Alappuzha Resturants</option>
+        <option value="saab">Detect current location</option>
+
+      </select>
+
+
+    </div>
+    <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+
+
+  </div>
+
+
+  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+
+
+
+  <div class="box11">
+
+
+
+
+    <label for=city></label>
+
+    <a href="./projecttask.html"> <select name="places" id="cities1">
+
+        <option value="Hyderabad">Hyderabad Resturants</option>
+
+
+      </select></a>
+    <!-- mmmmmmmmmmmmmmmmmmmmm -->
+
+    <label for=city></label>
+
+    <select name="places" id="cities2">
+
+      <option value="Hyderabad">jammu Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+    <label for=city></label>
+
+    <select name="places" id="cities3">
+
+      <option value="Hyderabad">Jalandhara Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+
+
+    <label for=city></label>
+
+    <select name="places" id="cities4">
+
+      <option value="Hyderabad">Guntur Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+    <label for=city></label>
+
+    <select name="places" id="cities5">
+
+      <option value="Hyderabad">Goa statements</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+
+    <label for=city></label>
+
+    <select name="places" id="cities6">
+
+      <option value="Hyderabad">Haridwar Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <label for=city></label>
+
+    <select name="places" id="cities7">
+
+      <option value="Hyderabad">Jamnagar Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select><label for=city></label>
+
+    <select name="places" id="cities8">
+
+      <option value="Hyderabad">Dehradun Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select><label for=city></label>
+
+    <select name="places" id="cities9">
+
+      <option value="Hyderabad">Coimbatore</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+
+  </div>
+  <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+
+
+  </div>
+
+
+
+  <div class="box12">
+
+
+
+
+    <label for=city></label>
+
+    <select name="places" id="cities1">
+
+      <option value="Hyderabad">Cuttack Resturants</option>
+
+
+    </select>
+    <!-- mmmmmmmmmmmmmmmmmmmmm -->
+
+    <label for=city></label>
+
+    <select name="places" id="cities2">
+
+      <option value="Hyderabad">Delhi Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+    <label for=city></label>
+
+    <select name="places" id="cities3">
+
+      <option value="Hyderabad">Guwahati Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <!-- nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn -->
+
+
+    <label for=city></label>
+
+    <select name="places" id="cities4">
+
+      <option value="Hyderabad">Jabalpur</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+    <label for=city></label>
+
+    <select name="places" id="cities5">
+
+      <option value="Hyderabad">Indore Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+
+    <label for=city></label>
+
+    <select name="places" id="cities6">
+
+      <option value="Hyderabad">Chandigarh</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+    <label for=city></label>
+
+    <select name="places" id="cities7">
+
+      <option value="Hyderabad">Benhuluru Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select><label for=city></label>
+
+    <select name="places" id="cities8">
+
+      <option value="Hyderabad">Ameitsar Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select><label for=city></label>
+
+    <select name="places" id="cities9">
+
+      <option value="Hyderabad">Cuttack Resturants</option>
+      <option value="saab">Detect current location</option>
+
+    </select>
+
+
+  </div>
+  <!-- zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz -->
+  </div>
+
+
+
+
+
+  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
+
+
+
+
+  <div class="box13">
+    <img class="zz1" src="./images/zz.png" height="30px">
+
+
+
+    <label for=india></label>
+    <img class="zz2" src="./images/flaggg.png" height="10px">
+    <select name="places" id="india">
+      <option value="ind">India</option>
+    </select>
+
+
+    <label for=india></label>
+    <img class="zz3" src="./images/int1.jpg" height="10px">
+    <select name="places" id="lang">
+      <option value="ind">English</option>
+    </select>
+
+
+    <h1 class="abz">A B O U T &nbsp;Z O M A T O</h1>
+    <p class="k1">Who Are we</p>
+    <p class="k1">Blog</p>
+    <p class="k1">Work With Us</p>
+    <p class="k1">Investor Relations</p>
+    <p class="k1">Report Fraud</p>
+    <p class="k1">Press Kit</p>
+    <p class="k1">Contact Us</p>
+
+    <div class="q1">
+      <h1 class="zom">Z O M A V E R S E</h1>
+
+      <p class="k2">Zomato</p>
+      <p class="k2">Blinkit</p>
+      <p class="k2">Feeding india</p>
+      <p class="k2">Hyperpure</p>
+      <p class="k2">Zomaland</p>
+    </div>
+    <div class="q2">
+
+      <h1 class="for">F O R R E S T U R A N T S</h1>
+
+      <p class="k3">Partner With US</p>
+      <p class="k3">Apps For You</p>
+
+    </div>
+
+    <div class="q3">
+
+      <h1 class="ent">F O R E N T E R P R I S E S</h1>
+
+      <p class="k4">Zomato For Enterprise</p>
+
+
+    </div>
+
+    <div class="q4">
+
+      <h1 class="lrn">L E A R N M O R E</h1>
+
+      <p class="k5">Privacy</p>
+      <p class="k5">Security</p>
+      <p class="k5">Terms</p>
+      <p class="k5">Sitemap</p>
+    </div>
+
+  </div>
+  <div class="q6">
+    <h1 class="scl">S O C I A L L I N K S</h1>
+
+
+    <a href="https://www.facebook.com/">
+      <i class="fa fa-facebook-f" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://www.instagram.com/">
+      <i class="fa fa-instagram" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://twitter.com/i/flow/login">
+
+      <i class="fa fa-twitter" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+    <a href="https://in.pinterest.com/">
+      <i class="fa fa-pinterest" style="font-size:18px;color:black"></i></a>&nbsp;&nbsp;&nbsp;
+  </div>
+
+
+  <div class="q7">
+    <img class="img10" src="./images/gp.png" height="50px" width="150px">
+
+    <img class="img11" src="./images/ap.png" height="50px">
+  </div>
+  </div>
+
+  <div class="q8">
+
+  </div>
+  <div class="k10">
+    <p class="k6">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+      Content Policies. All trademarks are properties of their respective owners.<br> 2008-2024 © Zomato™ Ltd. All
+      rights reserved.</p>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
